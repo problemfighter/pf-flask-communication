@@ -13,7 +13,9 @@ setup(
     zip_safe=False,
     include_package_data=True,
     platforms='any',
-    install_requires=[],
+    install_requires=[
+        "flask-socketio"
+    ],
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
